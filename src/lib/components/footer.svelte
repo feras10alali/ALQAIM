@@ -3,7 +3,7 @@
     import { slide } from 'svelte/transition';
     import { onMount } from 'svelte';
   
-    import { Instagram, Facebook, Twitter } from 'lucide-svelte';
+    import { Instagram, Facebook, Youtube } from 'lucide-svelte';
     let show = false;
     let footerContent;
   
@@ -37,14 +37,21 @@
               <h3 class="text-white font-semibold mb-2">مواقع التواصل الأجتماعي</h3>
               <ul class="space-y-2 text-white/90">
                 <li class="flex items-center gap-2">
-                  <Instagram class="w-5 h-5" /> Instagram
+                  <a href="https://www.instagram.com/alqaema?igsh=ODg3MmFsNW1sdzFq" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2">
+                    <Instagram class="w-5 h-5" /> Instagram
+                  </a>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Facebook class="w-5 h-5" /> Facebook
+                  <a href="https://youtube.com/@imamqaemhussainyah?si=V3eRk46LEf2DQLdp" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2">
+                    <Youtube class="w-5 h-5" /> Youtube
+                  </a>
                 </li>
                 <li class="flex items-center gap-2">
-                  <Twitter class="w-5 h-5" /> X (Twitter)
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2">
+                    <Facebook class="w-5 h-5" /> Facebook
+                  </a>
                 </li>
+
               </ul>
             </div>
   
