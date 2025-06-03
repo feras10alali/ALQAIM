@@ -12,7 +12,8 @@ export async function load({ params }) {
         id: record.id,
         title: record.title,
         videoUrl: pb.files.getURL(record, record.video),
-        description: record.description, 
+        thumbnailUrl: pb.files.getURL(record, record.Thumbnail), // 👈 Added thumbnail
+        description: record.description
       }
     };
   } catch (err) {

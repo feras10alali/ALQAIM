@@ -1,9 +1,9 @@
-// src/routes/+page.server.js
 import { pb } from '$lib/pocketbase';
 
 export async function load() {
   const records = await pb.collection('slidePhotos').getFullList({
-    sort: '-created'
+    sort: '-created',
+    requestKey: null
   });
 
   const images = records.map((record) => ({
