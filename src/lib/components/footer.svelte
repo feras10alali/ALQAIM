@@ -85,11 +85,6 @@
           <img src={logo} alt="Logo" class="w-40 sm:w-52 object-contain mx-auto sm:mx-0" />
         </div>
       </div>
-
-      <!-- Bottom bar -->
-      <div class="border-t border-white/30 text-center py-4 text-sm text-white/70">
-        © {new Date().getFullYear()} جميع الحقوق محفوظة
-      </div>
     {/if}
   </div>
 </footer>
