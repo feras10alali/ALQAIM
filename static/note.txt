@@ -1,4 +1,0 @@
-            <div class="p-0 m-0">
-                <img class="w-[8rem] mb-3 rounded-full shadow-lg" src={avatarUrl} alt="user avatar"/>
-                <span class="z-10 bg-green-500 border-2 border-white rounded-full"><button></button></span>
-            </div>  
