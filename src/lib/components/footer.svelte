@@ -46,19 +46,14 @@
                     <Youtube class="w-5 h-5" /> Youtube
                   </a>
                 </li>
-                <li class="flex items-center gap-2">
-                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2">
-                    <Facebook class="w-5 h-5" /> Facebook
-                  </a>
-                </li>
 
               </ul>
             </div>
   
             <div>
-              <h3 class="text-white font-semibold mb-2">Support</h3>
+              <h3 class="text-white font-semibold mb-2">الدعم</h3>
               <ul class="space-y-1 text-white/80">
-                <li>Submit ticket</li>
+                <li>إبلاغ عن خطاء</li>
                 <li>Documentation</li>
                 <li>Guides</li>
               </ul>
