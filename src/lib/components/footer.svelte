@@ -23,7 +23,7 @@
     });
   </script>
   
-  <footer class="w-full h-[40vh] bg-[#ab8f3e] text-white overflow-hidden">
+  <footer class="w-full h-[30vh] bg-[#ab8f3e] text-white overflow-hidden">
     <div bind:this={footerContent}>
       {#if show}
         <div
@@ -54,8 +54,6 @@
               <h3 class="text-white font-semibold mb-2">الدعم</h3>
               <ul class="space-y-1 text-white/80">
                 <li>إبلاغ عن خطاء</li>
-                <li>Documentation</li>
-                <li>Guides</li>
               </ul>
             </div>
           </div>

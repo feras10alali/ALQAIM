@@ -18,17 +18,18 @@
       ></video>
     </div>
   
-    <!-- Title -->
-    <h1 class="text-2xl font-semibold text-black">
-      {video.title}
-    </h1>
-  
-    <!-- Divider -->
-    <div class="border-b border-gray-900"></div>
-  
-    <!-- Description -->
-    <div class="prose max-w-none text-black">
-      {@html video.description}
+    <div class="bg-gray-300">
+      <h1 class="text-2xl font-semibold text-black">
+        {video.title}
+      </h1>
+    
+      <!-- Divider -->
+      <div class="border-b border-gray-900"></div>
+    
+      <!-- Description -->
+      <div class="prose max-w-none text-black">
+        {@html video.description}
+      </div>
     </div>
   </div>
 
