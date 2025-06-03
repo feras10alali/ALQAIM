@@ -85,6 +85,8 @@
           <img src={logo} alt="Logo" class="w-40 sm:w-52 object-contain mx-auto sm:mx-0" />
         </div>
       </div>
+
+
     {/if}
   </div>
 </footer>
